@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cv-analyser"
+version = "0.1.0"
+description = ""
+authors = ["Victor"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tinydb = "^4.8.2"
+pydantic = "^2.9.2"
+streamlit = "^1.40.1"
+streamlit-aggrid = "^1.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
